@@ -1,0 +1,89 @@
+#root {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 21px;
+  text-align: center;
+}
+
+
+.container {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 2.1rem
+}
+
+.main-header {
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2B283A;
+}
+
+.main-description {
+  font-size: 13.1072px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #4A4E74;
+  padding: 6px 1rem 1rem 1rem;
+}
+
+.roll-btn {
+  font-weight: 700;
+  font-size: 16.384px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  width: 120px;
+  height: 35.84px;
+  margin-bottom: 1rem;
+}
+
+.die-face {
+  width: 2.25rem;
+  height: 2.25rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  position:relative;
+}
+
+.isHeld {
+  background-color: #59E391;
+}
+
+/* .die-value {
+  font-weight: 700;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  color: #2B283A;
+} */
+
+.die-value {
+  width: 90%;
+  height: 90%;
+}
+
+.die-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.bestTime {
+ margin-bottom: 4px;
+}
+
+.newRecordAlert {
+  font-size: 12px;
+  color: #59E391;
+}
